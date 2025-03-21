@@ -58,7 +58,6 @@ const { GoogleAuth } = require('google-auth-library');
 const fs = require('fs');
 
 // Replace with your actual Firebase project ID
-const PROJECT_ID = 'xatboottwitch';
 const API_URL = `https://fcm.googleapis.com/v1/projects/${PROJECT_ID}/messages:send`;
 
 // Path to your service account key file
